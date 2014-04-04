@@ -10,12 +10,30 @@ categories: java7
 Then, when you're also working on an instant messaging program, you can distinguish Minesweeper from InstantMessenger much more readily than you can distinguish Project1 from Project2."
 
 
+Code for our first program within Eclipse
+
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+package beginning_java7.examples.hello;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		// First, get the date as seconds since 1/1/1970
+		// Note that a Date object also contains time information
+		Date now = new Date();
+		// Second, create a formatter object
+		SimpleDateFormat formatter =
+				new SimpleDateFormat("EEE, MMM dd, yyyy HH:mm:ss");
+		// Third, apply the formatter to the date
+		String formattedDate = formatter.format(now);
+		// Finally, add our formatted date to our output
+      System.out.println(formattedDate + "> Hello, " + args[0] + "!");
+	}
+
+}
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].

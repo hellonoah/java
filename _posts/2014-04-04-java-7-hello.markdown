@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Java7 for Absolute Beginners"
+date:   2014-04-04 
+categories: java7
+---
+
+"Be careful to pick meaningful names. I've chosen Hello for this example because the first program we're going to write is one that says Hello. One common mistake for new software developers is to choose names such as Project1 and Project2. It probably won't be long before you can't remember the details of any of them. Instead, if you're writing a minesweeper game, call your project Minesweeper. 
+
+Then, when you're also working on an instant messaging program, you can distinguish Minesweeper from InstantMessenger much more readily than you can distinguish Project1 from Project2."
+
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+
+[jekyll-gh]: https://github.com/mojombo/jekyll
+[jekyll]:    http://jekyllrb.com

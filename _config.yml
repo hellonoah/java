@@ -1,4 +1,4 @@
-name: Your New Jekyll Site
+name: Java Projects
 markdown: redcarpet
 pygments: true
-#pygments: false
+baseurl: /java
